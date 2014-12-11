@@ -1,2 +1,13 @@
 ddr_gitki:
     repository_path: "%repository_path%"
+    authentication:
+        oauth:
+            providers:
+                github:
+                    client_id: "24e6a66de2ecb15fd02e"
+                    secret: "d6d8217584c5915d82ba5402983878802755212a"
+                google:
+                    client_id: "807890576385-679oar629kgaovk3miecdagi8cl1o0pb.apps.googleusercontent.com"
+                    secret: "PyUiN7DoNZ_GDmb6sRaH_V6r"
+    twig:
+        toc_max_level: 6
